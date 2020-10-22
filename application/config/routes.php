@@ -54,3 +54,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+//routing pages
+// $route['p/(:any)'] = "pages/detail/$1";
+
+//routing kategori
+// $route['kategori/(:any)'] = "kategori/detail/$1";
+
+//routing berita
+// $route['berita/(:any)'] = "berita/detail/$1";
+
+//routing produk
+// $route['produk/(:any)'] = "produk/detail/$1";
+
+//galeri foto
+// $route['galeri/foto/(:any)'] = "galeri/foto/foto/$1";
